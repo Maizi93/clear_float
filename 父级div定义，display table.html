@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>父级div定义 diaplay:table</title>
+    <style type="text/css">
+       .div1{
+       	   background-color: #762564;
+       	   border:1px solid #ccc;
+       	   color: #fff;
+       	   /*清除浮动代码*/
+           width: 100%;
+           display: table;
+       }
+       .div2{
+       	   background-color: #656532;
+       	   border:1px solid #ddd;
+       	   height: 100px;
+       	   margin-top: 10px;
+       	   color: #fff;
+       }
+       .left{
+       	   float: left;
+       	   width: 20%;
+       	   height: 200px;
+       	   background: red;
+       }
+       .right{
+       	   float: right;
+       	   width: 30%;
+       	   height: 80px;
+       	   background: green;
+       }
+    </style>
+</head>
+<body>
+   <div class="div1">
+   	   <div class="left">Left</div>
+   	   <div class="right">Right</div>
+   </div>
+   <div class="div2">div2</div>
+</body>
+</html>

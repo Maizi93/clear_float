@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>结尾处加空div标签clear both </title>
+    <style type="text/css">
+       .div1{
+       	   background-color: #762564;
+       	   border:1px solid #ccc;
+       	   color: #fff;
+       }
+       .div2{
+       	   background-color: #656532;
+       	   border:1px solid #ddd;
+       	   height: 100px;
+       	   margin-top: 10px;
+       	   color: #fff;
+       }
+       .left{
+       	   float: left;
+       	   width: 20%;
+       	   height: 200px;
+       	   background: red;
+       }
+       .right{
+       	   float: right;
+       	   width: 30%;
+       	   height: 80px;
+       	   background: green;
+       }
+       .clearfloat{
+       	   clear:both;
+       }
+    </style>
+</head>
+<body>
+   <div class="div1">
+   	   <div class="left">Left</div>
+   	   <div class="right">Right</div>
+   	   <div class="clearfloat"></div>    <!--结尾处加空标签-->
+   </div>
+   <div class="div2">div2</div>
+</body>
+</html>
